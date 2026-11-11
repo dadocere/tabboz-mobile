@@ -1,0 +1,120 @@
+{
+  "appName": "Tabboz",
+  "appId": "6832685698",
+  "bundleIdentifier": "it.tabboz.simulator",
+  "sku": "tabboz-ios-001",
+  "organization": "ISTITUTI EDMONDO DE AMICIS SRL",
+  "teamId": "FC4758TVE2",
+  "primaryLocale": "it",
+  "version": "1.0.0",
+  "buildNumber": "2",
+  "appStoreVersionId": "1e44b755-647b-4d2c-86a3-df9e3e33840f",
+  "buildId": "1febfe08-055d-47b7-8bbb-f824cab5c737",
+  "buildProcessingState": "VALID",
+  "releaseType": "MANUAL",
+  "draftPrice": {
+    "customerPrice": "4.99",
+    "currency": "EUR",
+    "baseTerritory": "ITA"
+  },
+  "plannedStorefronts": [
+    "ITA"
+  ],
+  "ageRatingOverride": "EIGHTEEN_PLUS",
+  "privacyLabel": "DATA_COLLECTED_NO_TRACKING",
+  "submittedForReview": false,
+  "published": false,
+  "ipaPath": "Builds/1.0.0-2/Tabboz.ipa",
+  "ipaSha256": "8a8032d427d1eb172eeb79cab75d6a9f16cd968a35e7c30888ba92937246e5ec",
+  "archivePath": "/tmp/tabboz-release/Tabboz-1.0.0-2.xcarchive",
+  "engineArtifacts": {
+    "Tabboz/Web/zarrosim.js": "0d3aa500130642e39a35995f120edcb022074d16aa5e2c38963d31c3fe18086b",
+    "Tabboz/Web/zarrosim.wasm": "332e911fd9f40fd9f608a893d277b9aec5526cabf5d1d818c285278b27486f2d"
+  },
+  "pending": [
+    "Corresponding-source distribution and remaining licensing/branding assessment before public release",
+    "Paid download or IAP requires resolving educational membership fee waiver with Apple; free ads-only model has no Paid Apps Agreement requirement"
+  ],
+  "appStoreReviewDetailId": "696a7d5d-0ad7-462f-90fc-6b338b132c9b",
+  "betaAppLocalizationId": "8800c82a-9c21-4318-ab31-c0d2586de94c",
+  "betaBuildLocalizationId": "99081c55-d0da-407e-b4ce-109054e50248",
+  "screenshotsUploaded": 8,
+  "nativeVerification": {
+    "build2iPhone": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0
+    },
+    "historicalBuild1iPad": {
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "privacyPolicyUrl": "https://tabboz-mobile-2026.web.app/privacy",
+  "supportUrl": "https://tabboz-mobile-2026.web.app/support",
+  "supportEmail": "dadocere@hotmail.it",
+  "firebaseProjectId": "tabboz-mobile-2026",
+  "privacyDataTypes": [
+    {
+      "type": "Coarse Location",
+      "linked": true,
+      "purposes": [
+        "Analytics"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Device ID",
+      "linked": true,
+      "purposes": [
+        "Analytics",
+        "App Functionality"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Product Interaction",
+      "linked": true,
+      "purposes": [
+        "Analytics"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Crash Data",
+      "linked": false,
+      "purposes": [
+        "App Functionality"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Other Diagnostic Data",
+      "linked": false,
+      "purposes": [
+        "Analytics",
+        "App Functionality"
+      ],
+      "tracking": false
+    }
+  ],
+  "crashlyticsSymbolsUploaded": true,
+  "cloudAnalyticsEventReceiptVerified": false,
+  "cloudCrashReceiptVerified": false,
+  "appReviewContactSaved": true,
+  "build2ReviewNotesSaved": true,
+  "businessStatus": {
+    "organization": "ISTITUTI EDMONDO DE AMICIS SRL",
+    "paidAppsAgreement": "MISSING_ROW_FEE_WAIVER_LIKELY_CAUSE",
+    "freeAppsAgreement": "ACTIVE",
+    "banking": "ACTIVE",
+    "taxForms": "ACTIVE",
+    "digitalServicesAct": "ACTIVE",
+    "dac7": "ACTIVE",
+    "verifiedAt": "2026-11-10T08:58:42.565753+00:00",
+    "accountHolderSessionVerified": true,
+    "annualMembershipFee": "WAIVED",
+    "developerProgramLicenseAgreement": "Accepted 2026-10-30"
+  }
+}

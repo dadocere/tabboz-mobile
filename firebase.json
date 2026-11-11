@@ -1,0 +1,35 @@
+{
+  "hosting": {
+    "site": "tabboz-mobile-2026",
+    "public": "FirebaseHosting/public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "headers": [
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          },
+          {
+            "key": "Content-Security-Policy",
+            "value": "default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+          }
+        ]
+      }
+    ]
+  },
+  "remoteconfig": {
+    "template": "FirebaseHosting/remoteconfig.template.json"
+  }
+}

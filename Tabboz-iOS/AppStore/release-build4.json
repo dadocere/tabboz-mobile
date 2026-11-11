@@ -1,0 +1,200 @@
+{
+  "appName": "Tabboz",
+  "appId": "6832685698",
+  "bundleIdentifier": "it.tabboz.simulator",
+  "sku": "tabboz-ios-001",
+  "organization": "ISTITUTI EDMONDO DE AMICIS SRL",
+  "teamId": "FC4758TVE2",
+  "primaryLocale": "it",
+  "version": "1.0.0",
+  "buildNumber": "4",
+  "appStoreVersionId": "1e44b755-647b-4d2c-86a3-df9e3e33840f",
+  "buildId": "e6c4facd-ff1f-4b96-bcfc-4cfe327ea085",
+  "buildProcessingState": "VALID",
+  "releaseType": "MANUAL",
+  "draftPrice": {
+    "customerPrice": "0.00",
+    "currency": "EUR",
+    "baseTerritory": "ITA"
+  },
+  "plannedStorefronts": [
+    "ITA"
+  ],
+  "ageRatingOverride": "EIGHTEEN_PLUS",
+  "privacyLabel": "DATA_COLLECTED_NO_TRACKING",
+  "submittedForReview": false,
+  "published": false,
+  "ipaPath": "Builds/1.0.0-4/Tabboz.ipa",
+  "ipaSha256": "3b8ec6b08d19d5b923460d0c14db83e7f00180ac555fca80ce75cf8eccc599a8",
+  "archivePath": "/tmp/tabboz-release/Tabboz-1.0.0-4-final.xcarchive",
+  "engineArtifacts": {
+    "Tabboz/Web/zarrosim.js": "0d3aa500130642e39a35995f120edcb022074d16aa5e2c38963d31c3fe18086b",
+    "Tabboz/Web/zarrosim.wasm": "332e911fd9f40fd9f608a893d277b9aec5526cabf5d1d818c285278b27486f2d"
+  },
+  "pending": [
+    "Link public store listing and complete AdMob readiness/app-ads.txt verification when available",
+    "Remaining license/platform compatibility and asset/branding assessment before public release"
+  ],
+  "appStoreReviewDetailId": "696a7d5d-0ad7-462f-90fc-6b338b132c9b",
+  "betaAppLocalizationId": "8800c82a-9c21-4318-ab31-c0d2586de94c",
+  "betaBuildLocalizationId": "a82309ca-0bce-4b78-8fc7-62eb291a956e",
+  "screenshotsUploaded": 8,
+  "nativeVerification": {
+    "iPhoneBuild4": {
+      "passed": 20,
+      "failed": 0,
+      "skipped": 0
+    },
+    "iPhoneForcedAdBuild4": {
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0
+    },
+    "iPhoneRewardedSDK": {
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0
+    },
+    "iPadRewardedSDK": {
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0
+    },
+    "browserBridge": "PASS: six rapid real-engine activities, cancellation, stale opportunities, pause and held-pointer protection"
+  },
+  "privacyPolicyUrl": "https://tabboz-mobile-2026.web.app/privacy",
+  "supportUrl": "https://tabboz-mobile-2026.web.app/support",
+  "supportEmail": "dadocere@hotmail.it",
+  "firebaseProjectId": "tabboz-mobile-2026",
+  "privacyDataTypes": [
+    {
+      "type": "Coarse Location",
+      "linked": true,
+      "purposes": [
+        "Third-Party Advertising",
+        "Analytics"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Device ID",
+      "linked": true,
+      "purposes": [
+        "Third-Party Advertising",
+        "Analytics",
+        "App Functionality"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Product Interaction",
+      "linked": true,
+      "purposes": [
+        "Third-Party Advertising",
+        "Analytics"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Advertising Data",
+      "linked": true,
+      "purposes": [
+        "Third-Party Advertising",
+        "Analytics"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Crash Data",
+      "linked": false,
+      "purposes": [
+        "Analytics",
+        "App Functionality"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Performance Data",
+      "linked": false,
+      "purposes": [
+        "Third-Party Advertising",
+        "Analytics"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Other Diagnostic Data",
+      "linked": false,
+      "purposes": [
+        "Third-Party Advertising",
+        "Analytics",
+        "App Functionality"
+      ],
+      "tracking": false
+    }
+  ],
+  "crashlyticsSymbolsUploaded": true,
+  "cloudAnalyticsEventReceiptVerified": false,
+  "cloudCrashReceiptVerified": false,
+  "appReviewContactSaved": true,
+  "build2ReviewNotesSaved": true,
+  "businessStatus": {
+    "organization": "ISTITUTI EDMONDO DE AMICIS SRL",
+    "paidAppsAgreement": "MISSING_ROW_FEE_WAIVER_LIKELY_CAUSE",
+    "freeAppsAgreement": "ACTIVE",
+    "banking": "ACTIVE",
+    "taxForms": "ACTIVE",
+    "digitalServicesAct": "ACTIVE",
+    "dac7": "ACTIVE",
+    "verifiedAt": "2026-11-10T08:58:42.565753+00:00",
+    "accountHolderSessionVerified": true,
+    "annualMembershipFee": "WAIVED",
+    "developerProgramLicenseAgreement": "Accepted 2026-10-30"
+  },
+  "adMobAppId": "ca-app-pub-4476338747199979~3391207717",
+  "appStorePriceReadback": "0.0",
+  "adMobProductionApproved": false,
+  "adMobConsentMessagePublished": true,
+  "adMobConsentMessageId": "608c5730ea2b7249",
+  "ads": {
+    "model": "FREE_ADS_ONLY",
+    "account": "dadocere@gmail.com",
+    "sdkVersion": "13.12.0",
+    "umpVersion": "3.1.0",
+    "firstGraceSeconds": 300,
+    "returnGraceSeconds": 90,
+    "cooldownSeconds": 240,
+    "minimumActivities": 5,
+    "forcedPer30Minutes": 3,
+    "forcedPer24Hours": 12,
+    "rewardGameplaySeconds": 600,
+    "rewardsPer24Hours": 3,
+    "highEngagementAdsEnabled": false,
+    "personalizedAds": false,
+    "requestsATT": false,
+    "publisherId": "pub-4476338747199979",
+    "interstitialId": "ca-app-pub-4476338747199979/2992411606",
+    "rewardedId": "ca-app-pub-4476338747199979/2800839912",
+    "consentPrivacyUrlConfigured": true,
+    "firebaseProductLinkVerified": true,
+    "consentPrimaryLanguage": "it",
+    "consentFallbackLanguages": [
+      "en"
+    ],
+    "consentDenyOptionAllRegions": true,
+    "firebaseProductLinkVerifiedAt": "2026-11-11T08:44:41.893511+00:00",
+    "firebaseLinkedProjectId": "tabboz-mobile-2026",
+    "firebaseLinkedBundleId": "it.tabboz.simulator"
+  },
+  "recommendedForSubmission": false,
+  "knownIssues": [],
+  "deliveryUuid": "e6c4facd-ff1f-4b96-bcfc-4cfe327ea085",
+  "attachedBuildVerified": true,
+  "crashlyticsDSYMUuid": "fd15c08ec5683b1dbbe161e80e611426",
+  "sourceHashManifest": "Documentation/AdMob/build4-source-sha256.json",
+  "verifiedAt": "2026-11-10T15:43:51.650398+00:00",
+  "adMobConsentMessagePublishedAt": "2026-11-11",
+  "adMobConsentMessageVerifiedAt": "2026-11-11T08:42:02.081358+00:00",
+  "sourceRepository": "https://github.com/dadocere/tabboz-mobile",
+  "sourceTag": "ios-v1.0.0-build4"
+}

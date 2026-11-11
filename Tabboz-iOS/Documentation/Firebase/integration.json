@@ -1,0 +1,56 @@
+{
+  "verifiedAt": "2026-11-10T08:25:20.380526+00:00",
+  "firebaseAccount": "dadocere@gmail.com",
+  "projectId": "tabboz-mobile-2026",
+  "projectNumber": "371128262274",
+  "firebaseAppId": "1:371128262274:ios:998698847dd1d7c7269e9b",
+  "bundleId": "it.tabboz.simulator",
+  "appStoreId": "6832685698",
+  "analyticsAccountId": "150706991",
+  "analyticsPropertyId": "563423848",
+  "analyticsStreamId": "16306487212",
+  "firebaseSdkVersion": "13.1.1",
+  "googleAppMeasurementPackageVersion": "13.0.1",
+  "billingEnabled": false,
+  "privacyUrl": "https://tabboz-mobile-2026.web.app/privacy",
+  "supportUrl": "https://tabboz-mobile-2026.web.app/support",
+  "supportEmail": "dadocere@hotmail.it",
+  "hostingHttpVerified": true,
+  "nativeTests": {
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0
+  },
+  "analyticsCollectionDefault": true,
+  "crashCollectionDefault": true,
+  "idfaCapabilityLinked": false,
+  "idfvCollectionEnabled": false,
+  "advertisingConsent": {
+    "adStorage": "denied",
+    "adUserData": "denied",
+    "adPersonalization": "denied"
+  },
+  "analyticsConsentDefault": "granted",
+  "customUserIds": false,
+  "customAnalyticsEvents": false,
+  "gameStateSentToTelemetry": false,
+  "sanitizedNonfatalCodes": [
+    1001,
+    1002,
+    1003
+  ],
+  "nativeSdkRuntimeStarted": true,
+  "analyticsCollectionEnabledRuntimeLog": true,
+  "remoteCrashlyticsSettings": {
+    "collect_reports": true,
+    "collect_logged_exceptions": true
+  },
+  "cloudAnalyticsEventReceiptVerified": false,
+  "cloudCrashReceiptVerified": false,
+  "crashSmokeTest": "SIGABRT sent only to task-created dedicated iPhone QA simulator Tabboz process; app relaunched; dashboard receipt not established",
+  "originalGameEngineArtifacts": {
+    "Tabboz/Web/zarrosim.js": "0d3aa500130642e39a35995f120edcb022074d16aa5e2c38963d31c3fe18086b",
+    "Tabboz/Web/zarrosim.wasm": "332e911fd9f40fd9f608a893d277b9aec5526cabf5d1d818c285278b27486f2d"
+  },
+  "googleConfigSha256": "124b8b2b29d68cd308aa3486401066948d266c09b70d6ea62926da937eec2287"
+}

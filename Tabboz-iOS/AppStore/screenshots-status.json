@@ -1,0 +1,50 @@
+[
+  {
+    "id": "e7c00019-7428-8282-8004-82b07043d3bf",
+    "type": "APP_IPHONE_67",
+    "fileName": "Store 01 Main.png",
+    "state": "COMPLETE"
+  },
+  {
+    "id": "31400019-7428-8282-8015-c432c54c17aa",
+    "type": "APP_IPHONE_67",
+    "fileName": "Store 02 Scuola.png",
+    "state": "COMPLETE"
+  },
+  {
+    "id": "ff800019-7428-8282-8020-c09b30ffa2f8",
+    "type": "APP_IPHONE_67",
+    "fileName": "Store 03 Negozi.png",
+    "state": "COMPLETE"
+  },
+  {
+    "id": "f8800019-7428-8282-802e-e2ffebc2017d",
+    "type": "APP_IPHONE_67",
+    "fileName": "Store 04 Scooter.png",
+    "state": "COMPLETE"
+  },
+  {
+    "id": "19400019-7428-8282-8027-9465760aa876",
+    "type": "APP_IPAD_PRO_3GEN_129",
+    "fileName": "Store 01 Main.png",
+    "state": "COMPLETE"
+  },
+  {
+    "id": "74400019-7428-8282-803a-8f1ab6068386",
+    "type": "APP_IPAD_PRO_3GEN_129",
+    "fileName": "Store 02 Scuola.png",
+    "state": "COMPLETE"
+  },
+  {
+    "id": "ebc00019-7428-8282-803b-3b9fda24ad98",
+    "type": "APP_IPAD_PRO_3GEN_129",
+    "fileName": "Store 03 Negozi.png",
+    "state": "UPLOAD_COMPLETE"
+  },
+  {
+    "id": "b9800019-7428-8282-8021-8b33daf03011",
+    "type": "APP_IPAD_PRO_3GEN_129",
+    "fileName": "Store 04 Scooter.png",
+    "state": "COMPLETE"
+  }
+]

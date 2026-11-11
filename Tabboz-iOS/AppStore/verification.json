@@ -1,0 +1,116 @@
+{
+  "verifiedAt": "2026-11-10T15:43:51.650398+00:00",
+  "appId": "6832685698",
+  "teamId": "FC4758TVE2",
+  "version": "1.0.0",
+  "buildNumber": "4",
+  "buildId": "e6c4facd-ff1f-4b96-bcfc-4cfe327ea085",
+  "buildState": "VALID",
+  "attachedBuildVerified": true,
+  "appStoreState": "PREPARE_FOR_SUBMISSION",
+  "releaseType": "MANUAL",
+  "priceEUR": "0.00",
+  "reviewSubmitted": false,
+  "published": false,
+  "nativeVerification": {
+    "iPhoneBuild4": {
+      "passed": 20,
+      "failed": 0,
+      "skipped": 0
+    },
+    "iPhoneForcedAdBuild4": {
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0
+    },
+    "iPhoneRewardedSDK": {
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0
+    },
+    "iPadRewardedSDK": {
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0
+    },
+    "browserBridge": "PASS: six rapid real-engine activities, cancellation, stale opportunities, pause and held-pointer protection"
+  },
+  "privacyLabelsPublished": true,
+  "privacyDataTypes": [
+    {
+      "type": "Coarse Location",
+      "linked": true,
+      "purposes": [
+        "Third-Party Advertising",
+        "Analytics"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Device ID",
+      "linked": true,
+      "purposes": [
+        "Third-Party Advertising",
+        "Analytics",
+        "App Functionality"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Product Interaction",
+      "linked": true,
+      "purposes": [
+        "Third-Party Advertising",
+        "Analytics"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Advertising Data",
+      "linked": true,
+      "purposes": [
+        "Third-Party Advertising",
+        "Analytics"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Crash Data",
+      "linked": false,
+      "purposes": [
+        "Analytics",
+        "App Functionality"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Performance Data",
+      "linked": false,
+      "purposes": [
+        "Third-Party Advertising",
+        "Analytics"
+      ],
+      "tracking": false
+    },
+    {
+      "type": "Other Diagnostic Data",
+      "linked": false,
+      "purposes": [
+        "Third-Party Advertising",
+        "Analytics",
+        "App Functionality"
+      ],
+      "tracking": false
+    }
+  ],
+  "privacyPolicyUrl": "https://tabboz-mobile-2026.web.app/privacy",
+  "supportUrl": "https://tabboz-mobile-2026.web.app/support",
+  "appReviewContactSaved": true,
+  "reviewNotesSaved": true,
+  "crashlyticsSymbolsUploaded": true,
+  "adMobConsentMessagePublished": true,
+  "adMobProductionApproved": false,
+  "adMobFirebaseProductLinkVerified": true,
+  "adMobConsentMessageVerifiedAt": "2026-11-11T08:42:02.081358+00:00",
+  "adMobFirebaseProductLinkVerifiedAt": "2026-11-11T08:44:41.893511+00:00"
+}

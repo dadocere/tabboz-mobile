@@ -1,0 +1,27 @@
+{
+  "verifiedAt": "2026-11-11T08:44:41.893511+00:00",
+  "account": "dadocere@gmail.com",
+  "consentMessage": {
+    "id": "608c5730ea2b7249",
+    "name": "Tabboz iOS - consenso europeo",
+    "statusReadback": "Pubblicato",
+    "publishedSwitchEnabled": true,
+    "primaryLanguage": "it",
+    "fallbackLanguages": [
+      "en"
+    ],
+    "denyOptionAllRegions": true,
+    "privacyUrl": "https://tabboz-mobile-2026.web.app/privacy"
+  },
+  "firebaseProductLink": {
+    "adMobAppId": "ca-app-pub-4476338747199979~3391207717",
+    "adMobStatusReadback": "Collegato",
+    "firebaseProjectId": "tabboz-mobile-2026",
+    "firebaseAppName": "Tabboz iOS",
+    "firebaseBundleId": "it.tabboz.simulator",
+    "firebaseStatusReadback": "Collegata",
+    "verifiedAfterAdMobReload": true
+  },
+  "productionApprovalClaimed": false,
+  "productionRevenueReceiptClaimed": false
+}

@@ -1,0 +1,20 @@
+/* iOS host adaptations. The original dialog styles and artwork remain upstream. */
+html, body { width: 100%; height: 100%; overflow: hidden; background: #008080; }
+body { -webkit-text-size-adjust: 100%; }
+#screen { position: absolute; left: 0; top: 0; transform-origin: top left; }
+#screen > .window { margin: 0 !important; }
+#screen > .wall { position: absolute; }
+.window, button, .title-bar, .desktop-item { -webkit-user-select: none; user-select: none; }
+input, textarea { -webkit-user-select: text; user-select: text; }
+button, select, label, .main-menu li, .desktop-item { touch-action: manipulation; }
+input, select, textarea { border-radius: 0; }
+.title-bar { touch-action: none; }
+/* Keep the rightmost Help dropdown inside the scaled game window. */
+.main-menu > li:last-child > ul { left: auto !important; right: 0; }
+/* Borland group frames are decoration, not hit targets. Some upstream templates
+   place them after radio controls, where HTML otherwise lets them eat touches. */
+[data-class="BorShade"] { pointer-events: none; }
+.messagebox { max-width: min(420px, 90%) !important; }
+#boot { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 260px; }
+#boot .window-body { padding: 12px; }
+#mobile-error { white-space: pre-wrap; }

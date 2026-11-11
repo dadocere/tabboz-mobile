@@ -1,0 +1,56 @@
+{
+  "appName": "Tabboz",
+  "appId": "6832685698",
+  "bundleIdentifier": "it.tabboz.simulator",
+  "sku": "tabboz-ios-001",
+  "organization": "ISTITUTI EDMONDO DE AMICIS SRL",
+  "teamId": "FC4758TVE2",
+  "primaryLocale": "it",
+  "version": "1.0.0",
+  "buildNumber": "1",
+  "appStoreVersionId": "1e44b755-647b-4d2c-86a3-df9e3e33840f",
+  "buildId": "4a1b8dd2-1dd1-40d4-a949-2291342d6f52",
+  "buildProcessingState": "VALID",
+  "releaseType": "MANUAL",
+  "draftPrice": {
+    "customerPrice": "4.99",
+    "currency": "EUR",
+    "baseTerritory": "ITA"
+  },
+  "plannedStorefronts": [
+    "ITA"
+  ],
+  "ageRatingOverride": "EIGHTEEN_PLUS",
+  "privacyLabel": "DATA_NOT_COLLECTED",
+  "submittedForReview": false,
+  "published": false,
+  "ipaPath": "Builds/1.0.0-1/Tabboz.ipa",
+  "ipaSha256": "ae1895a61eaddaaf7292075c015bd2ab22f1f5ea2d4162682dffa659b570269f",
+  "archivePath": "/tmp/tabboz-release/Tabboz-1.0.0-1.xcarchive",
+  "engineArtifacts": {
+    "Tabboz/Web/zarrosim.js": "0d3aa500130642e39a35995f120edcb022074d16aa5e2c38963d31c3fe18086b",
+    "Tabboz/Web/zarrosim.wasm": "332e911fd9f40fd9f608a893d277b9aec5526cabf5d1d818c285278b27486f2d"
+  },
+  "pending": [
+    "Public support and privacy policy URLs",
+    "Real App Review contact details",
+    "Corresponding-source distribution and remaining licensing/branding assessment before public release",
+    "EU trader status review before commercial release"
+  ],
+  "appStoreReviewDetailId": "696a7d5d-0ad7-462f-90fc-6b338b132c9b",
+  "betaAppLocalizationId": "8800c82a-9c21-4318-ab31-c0d2586de94c",
+  "betaBuildLocalizationId": "51e88dd2-a2a3-40fe-980a-693b7a504046",
+  "screenshotsUploaded": 8,
+  "nativeVerification": {
+    "iPhone": {
+      "passed": 9,
+      "failed": 0,
+      "skipped": 0
+    },
+    "iPad": {
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0
+    }
+  }
+}

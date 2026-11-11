@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E96D29AC2F6B4B4E76F79E /* Web in Resources */ = {isa = PBXBuildFile; fileRef = 85C4021A30A5F3AB581802B8 /* Web */; };
+		17ACFA4C12D82EE06AD68534 /* LocalGameServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C224E11B702FA801FA8A885A /* LocalGameServer.swift */; };
+		1B59BC80FDDB2CC65BBBBE56 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3A2565E05763241607582ABF /* FirebaseCrashlytics */; };
+		2B896FD801BA4CAD046365C7 /* TelemetrySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983F5254B2347850A0135683 /* TelemetrySettings.swift */; };
+		30B11081BFA5AE698E635EC0 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = F790D1849DC6C6CF374536BF /* FirebaseAnalyticsCore */; };
+		34357FF44203BB15F6A0EE2A /* GoogleUserMessagingPlatform in Frameworks */ = {isa = PBXBuildFile; productRef = 5C99F9C182C64666A04538D1 /* GoogleUserMessagingPlatform */; };
+		4BF5A10E6E974ADCC6BFA7EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AA01D057F14FA1689D10F67 /* GoogleService-Info.plist */; };
+		5A973C4FBEEBB4A443EFB206 /* AdPolicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14D3772FCE2A6BEE214050C /* AdPolicyTests.swift */; };
+		76E6F7814D73574091B9207D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34556AAFACF84C4BB70067D6 /* Assets.xcassets */; };
+		76EB62DFED03E13AD64EDEFA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32208D2107B44A6ED7C80D37 /* WebKit.framework */; };
+		9370B2804E44D92838E736AB /* TabbozApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3B242738E1B1E85D61125E /* TabbozApp.swift */; };
+		A250B7A9C12155310D78438C /* AdCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F233BF10002963B7F366F6AF /* AdCoordinator.swift */; };
+		A62AD2B4208CB4D18DBA8BC0 /* GameplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2BDA0D8F36FAB34FB9A3EC /* GameplayUITests.swift */; };
+		AE95301839B22202B97A0293 /* AdPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C7D812DD7FC34B6B2909F9 /* AdPolicy.swift */; };
+		AFCFB8D37CA9EC48A193690C /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 956A08484A743F8BBFF796CE /* FirebaseRemoteConfig */; };
+		B08C98412E4DAD59663DEFA6 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCA5B451A419AB471C414FF /* GameView.swift */; };
+		B608138566FF1B3E43C582BA /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F1B468E11E1F78F7068475 /* Network.framework */; };
+		C80A555CDC4141EE07D9A9D7 /* ThirdPartyNotices.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8F9D07F763AECC4223A763CD /* ThirdPartyNotices.txt */; };
+		D9C457653DB10894C75AEE84 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 09B319ED8CB91E34F487CBE2 /* LICENSE.txt */; };
+		E1FD16975BB8F758EB3EB7F8 /* LocalGameServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6406EF0CF484460C625BAEC3 /* LocalGameServerTests.swift */; };
+		E5778B55A7DE2633E88D018E /* AdSDKSmokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D08288368351C4A96DDBFC0 /* AdSDKSmokeTests.swift */; };
+		F04290FE1F7E3023452DF8BB /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 1BED506544E63CC4E7EC8B50 /* GoogleMobileAds */; };
+		F8F29C2ABE2963DFADF09646 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0014EFB3C29DE6E9711D239B /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F4551E1A810610260421D11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF00F4F3B46CBA4160545F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F201D43AF93D1A2D93885CDD;
+			remoteInfo = Tabboz;
+		};
+		47F6177C4DD8E1F8B51B4979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF00F4F3B46CBA4160545F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F201D43AF93D1A2D93885CDD;
+			remoteInfo = Tabboz;
+		};
+		AAA7C2BDD1A26087D11D0A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF00F4F3B46CBA4160545F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F201D43AF93D1A2D93885CDD;
+			remoteInfo = Tabboz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0014EFB3C29DE6E9711D239B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		09B319ED8CB91E34F487CBE2 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		0CCA5B451A419AB471C414FF /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		15D9F81926914A93626AF761 /* TabbozTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TabbozTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32208D2107B44A6ED7C80D37 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		34556AAFACF84C4BB70067D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B3B242738E1B1E85D61125E /* TabbozApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbozApp.swift; sourceTree = "<group>"; };
+		3DB82F199A628ACA9830947B /* TabbozAdSDKTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TabbozAdSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6406EF0CF484460C625BAEC3 /* LocalGameServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalGameServerTests.swift; sourceTree = "<group>"; };
+		67F1B468E11E1F78F7068475 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		6D08288368351C4A96DDBFC0 /* AdSDKSmokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdSDKSmokeTests.swift; sourceTree = "<group>"; };
+		85C4021A30A5F3AB581802B8 /* Web */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Web; path = Tabboz/Web; sourceTree = SOURCE_ROOT; };
+		86D9D66DE0B9E84B7BB428AF /* TabbozUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TabbozUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA01D057F14FA1689D10F67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8F9D07F763AECC4223A763CD /* ThirdPartyNotices.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ThirdPartyNotices.txt; sourceTree = "<group>"; };
+		983F5254B2347850A0135683 /* TelemetrySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetrySettings.swift; sourceTree = "<group>"; };
+		A0C7D812DD7FC34B6B2909F9 /* AdPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdPolicy.swift; sourceTree = "<group>"; };
+		C224E11B702FA801FA8A885A /* LocalGameServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalGameServer.swift; sourceTree = "<group>"; };
+		F0BC1C7F0E5E3F0051C3D30E /* Tabboz.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Tabboz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14D3772FCE2A6BEE214050C /* AdPolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdPolicyTests.swift; sourceTree = "<group>"; };
+		F233BF10002963B7F366F6AF /* AdCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCoordinator.swift; sourceTree = "<group>"; };
+		FF2BDA0D8F36FAB34FB9A3EC /* GameplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3A0CEC6E999C36B763EE3A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76EB62DFED03E13AD64EDEFA /* WebKit.framework in Frameworks */,
+				B608138566FF1B3E43C582BA /* Network.framework in Frameworks */,
+				30B11081BFA5AE698E635EC0 /* FirebaseAnalyticsCore in Frameworks */,
+				1B59BC80FDDB2CC65BBBBE56 /* FirebaseCrashlytics in Frameworks */,
+				AFCFB8D37CA9EC48A193690C /* FirebaseRemoteConfig in Frameworks */,
+				F04290FE1F7E3023452DF8BB /* GoogleMobileAds in Frameworks */,
+				34357FF44203BB15F6A0EE2A /* GoogleUserMessagingPlatform in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08069B58DA19BE97CB90D42C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34556AAFACF84C4BB70067D6 /* Assets.xcassets */,
+				8AA01D057F14FA1689D10F67 /* GoogleService-Info.plist */,
+				09B319ED8CB91E34F487CBE2 /* LICENSE.txt */,
+				0014EFB3C29DE6E9711D239B /* PrivacyInfo.xcprivacy */,
+				8F9D07F763AECC4223A763CD /* ThirdPartyNotices.txt */,
+			);
+			name = Resources;
+			path = Tabboz/Resources;
+			sourceTree = "<group>";
+		};
+		12182E6546DBFE88555A4361 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				C224E11B702FA801FA8A885A /* LocalGameServer.swift */,
+			);
+			name = Engine;
+			path = Tabboz/Engine;
+			sourceTree = "<group>";
+		};
+		2F9689FBD56F475F9F44B915 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67F1B468E11E1F78F7068475 /* Network.framework */,
+				32208D2107B44A6ED7C80D37 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D925181D2EE24C0D7F9D5CB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F233BF10002963B7F366F6AF /* AdCoordinator.swift */,
+				A0C7D812DD7FC34B6B2909F9 /* AdPolicy.swift */,
+				0CCA5B451A419AB471C414FF /* GameView.swift */,
+				3B3B242738E1B1E85D61125E /* TabbozApp.swift */,
+				983F5254B2347850A0135683 /* TelemetrySettings.swift */,
+			);
+			name = App;
+			path = Tabboz/App;
+			sourceTree = "<group>";
+		};
+		675E75D7DD98B806D1DC0375 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F14D3772FCE2A6BEE214050C /* AdPolicyTests.swift */,
+				6406EF0CF484460C625BAEC3 /* LocalGameServerTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		7BED330EB92EA325B974B61A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0BC1C7F0E5E3F0051C3D30E /* Tabboz.app */,
+				3DB82F199A628ACA9830947B /* TabbozAdSDKTests.xctest */,
+				15D9F81926914A93626AF761 /* TabbozTests.xctest */,
+				86D9D66DE0B9E84B7BB428AF /* TabbozUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98BADCF536FDEECCA9F1C448 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF2BDA0D8F36FAB34FB9A3EC /* GameplayUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		B3C0CF9323FC6A17122259E9 /* AdSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D08288368351C4A96DDBFC0 /* AdSDKSmokeTests.swift */,
+			);
+			path = AdSDKTests;
+			sourceTree = "<group>";
+		};
+		B6A04309248180DF1C199F05 = {
+			isa = PBXGroup;
+			children = (
+				85C4021A30A5F3AB581802B8 /* Web */,
+				B3C0CF9323FC6A17122259E9 /* AdSDKTests */,
+				4D925181D2EE24C0D7F9D5CB /* App */,
+				12182E6546DBFE88555A4361 /* Engine */,
+				08069B58DA19BE97CB90D42C /* Resources */,
+				675E75D7DD98B806D1DC0375 /* Tests */,
+				98BADCF536FDEECCA9F1C448 /* UITests */,
+				2F9689FBD56F475F9F44B915 /* Frameworks */,
+				7BED330EB92EA325B974B61A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19872FEB103C21B22B88B654 /* TabbozAdSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B78ED34C780E0BBD497575 /* Build configuration list for PBXNativeTarget "TabbozAdSDKTests" */;
+			buildPhases = (
+				618DA69B400B989E86C2F9DB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6B54A2426D78A629A239EE9 /* PBXTargetDependency */,
+			);
+			name = TabbozAdSDKTests;
+			packageProductDependencies = (
+			);
+			productName = TabbozAdSDKTests;
+			productReference = 3DB82F199A628ACA9830947B /* TabbozAdSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3B99CA2CF254A535CDAB353B /* TabbozTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66998DA81DAD9A0A72D6801F /* Build configuration list for PBXNativeTarget "TabbozTests" */;
+			buildPhases = (
+				224EABF665FAB7F16365CC8D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E856CD5D710DC63E5306316 /* PBXTargetDependency */,
+			);
+			name = TabbozTests;
+			packageProductDependencies = (
+			);
+			productName = TabbozTests;
+			productReference = 15D9F81926914A93626AF761 /* TabbozTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1AC15A40C7F089EFFB7002E /* TabbozUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E80E1190AD0E47CDF94DE12 /* Build configuration list for PBXNativeTarget "TabbozUITests" */;
+			buildPhases = (
+				C3A86DDF385ED36F3C78CED8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DEE5A7344717510A7E93132 /* PBXTargetDependency */,
+			);
+			name = TabbozUITests;
+			packageProductDependencies = (
+			);
+			productName = TabbozUITests;
+			productReference = 86D9D66DE0B9E84B7BB428AF /* TabbozUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F201D43AF93D1A2D93885CDD /* Tabboz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C88F7D1D496855FE9861FC7 /* Build configuration list for PBXNativeTarget "Tabboz" */;
+			buildPhases = (
+				CC9C3B6C7DCD80451B6FB6A2 /* Sources */,
+				9518A90CE2B24CE18A652FB8 /* Resources */,
+				C3A0CEC6E999C36B763EE3A9 /* Frameworks */,
+				17C9410CF3DCC85EB26DF009 /* Upload Crashlytics symbols */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tabboz;
+			packageProductDependencies = (
+				F790D1849DC6C6CF374536BF /* FirebaseAnalyticsCore */,
+				3A2565E05763241607582ABF /* FirebaseCrashlytics */,
+				956A08484A743F8BBFF796CE /* FirebaseRemoteConfig */,
+				1BED506544E63CC4E7EC8B50 /* GoogleMobileAds */,
+				5C99F9C182C64666A04538D1 /* GoogleUserMessagingPlatform */,
+			);
+			productName = Tabboz;
+			productReference = F0BC1C7F0E5E3F0051C3D30E /* Tabboz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF00F4F3B46CBA4160545F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					19872FEB103C21B22B88B654 = {
+						DevelopmentTeam = FC4758TVE2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F201D43AF93D1A2D93885CDD;
+					};
+					3B99CA2CF254A535CDAB353B = {
+						DevelopmentTeam = FC4758TVE2;
+						ProvisioningStyle = Automatic;
+					};
+					F1AC15A40C7F089EFFB7002E = {
+						DevelopmentTeam = FC4758TVE2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F201D43AF93D1A2D93885CDD;
+					};
+					F201D43AF93D1A2D93885CDD = {
+						DevelopmentTeam = FC4758TVE2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8935F8544400CF0BFC780E4D /* Build configuration list for PBXProject "Tabboz" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B6A04309248180DF1C199F05;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C110D072B2684EFE3562F0B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				2D47B3CFF7D880261C1F6037 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				BC8F72E987957881108F2DAA /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7BED330EB92EA325B974B61A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F201D43AF93D1A2D93885CDD /* Tabboz */,
+				3B99CA2CF254A535CDAB353B /* TabbozTests */,
+				F1AC15A40C7F089EFFB7002E /* TabbozUITests */,
+				19872FEB103C21B22B88B654 /* TabbozAdSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9518A90CE2B24CE18A652FB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E6F7814D73574091B9207D /* Assets.xcassets in Resources */,
+				4BF5A10E6E974ADCC6BFA7EF /* GoogleService-Info.plist in Resources */,
+				D9C457653DB10894C75AEE84 /* LICENSE.txt in Resources */,
+				F8F29C2ABE2963DFADF09646 /* PrivacyInfo.xcprivacy in Resources */,
+				C80A555CDC4141EE07D9A9D7 /* ThirdPartyNotices.txt in Resources */,
+				02E96D29AC2F6B4B4E76F79E /* Web in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17C9410CF3DCC85EB26DF009 /* Upload Crashlytics symbols */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)",
+				"$(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)/Contents/Resources/DWARF/$(PRODUCT_NAME)",
+				"$(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)/Contents/Info.plist",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+			);
+			name = "Upload Crashlytics symbols";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${PLATFORM_NAME}\" != \"iphoneos\" ]; then\n  echo \"Crashlytics symbol upload is only needed for device builds.\"\n  exit 0\nfi\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224EABF665FAB7F16365CC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A973C4FBEEBB4A443EFB206 /* AdPolicyTests.swift in Sources */,
+				E1FD16975BB8F758EB3EB7F8 /* LocalGameServerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618DA69B400B989E86C2F9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5778B55A7DE2633E88D018E /* AdSDKSmokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A86DDF385ED36F3C78CED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62AD2B4208CB4D18DBA8BC0 /* GameplayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9C3B6C7DCD80451B6FB6A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A250B7A9C12155310D78438C /* AdCoordinator.swift in Sources */,
+				AE95301839B22202B97A0293 /* AdPolicy.swift in Sources */,
+				B08C98412E4DAD59663DEFA6 /* GameView.swift in Sources */,
+				17ACFA4C12D82EE06AD68534 /* LocalGameServer.swift in Sources */,
+				9370B2804E44D92838E736AB /* TabbozApp.swift in Sources */,
+				2B896FD801BA4CAD046365C7 /* TelemetrySettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DEE5A7344717510A7E93132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F201D43AF93D1A2D93885CDD /* Tabboz */;
+			targetProxy = 0F4551E1A810610260421D11 /* PBXContainerItemProxy */;
+		};
+		9E856CD5D710DC63E5306316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F201D43AF93D1A2D93885CDD /* Tabboz */;
+			targetProxy = AAA7C2BDD1A26087D11D0A91 /* PBXContainerItemProxy */;
+		};
+		D6B54A2426D78A629A239EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F201D43AF93D1A2D93885CDD /* Tabboz */;
+			targetProxy = 47F6177C4DD8E1F8B51B4979 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E67ADC70642D9BC78295E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.tabboz.simulator.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabboz.app/Tabboz";
+			};
+			name = Release;
+		};
+		48309EE3DCED34FF7FB5F700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.tabboz.simulator.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tabboz;
+			};
+			name = Debug;
+		};
+		6BB5C73847339C174C6D7E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FC4758TVE2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		80986B23D4CE3BE0A48EC55D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_DEBUG_DYLIB = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Tabboz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.tabboz.simulator;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FAD34A70307175034A270B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_DEBUG_DYLIB = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Tabboz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.tabboz.simulator;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9FD5D9D759A9F316D5DFFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.tabboz.simulator.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabboz.app/Tabboz";
+			};
+			name = Debug;
+		};
+		B3B276897559AF471BAD9629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.tabboz.simulator.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tabboz;
+			};
+			name = Release;
+		};
+		C397678ED8977E7827E550CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.tabboz.simulator.adsdkuitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tabboz;
+			};
+			name = Debug;
+		};
+		C788F1FF6E61B4D83FE3CB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FC4758TVE2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E7A539364D965949B8C66188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.tabboz.simulator.adsdkuitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tabboz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08B78ED34C780E0BBD497575 /* Build configuration list for PBXNativeTarget "TabbozAdSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C397678ED8977E7827E550CE /* Debug */,
+				E7A539364D965949B8C66188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		66998DA81DAD9A0A72D6801F /* Build configuration list for PBXNativeTarget "TabbozTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FD5D9D759A9F316D5DFFE5 /* Debug */,
+				0E67ADC70642D9BC78295E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6E80E1190AD0E47CDF94DE12 /* Build configuration list for PBXNativeTarget "TabbozUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48309EE3DCED34FF7FB5F700 /* Debug */,
+				B3B276897559AF471BAD9629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7C88F7D1D496855FE9861FC7 /* Build configuration list for PBXNativeTarget "Tabboz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80986B23D4CE3BE0A48EC55D /* Debug */,
+				9FAD34A70307175034A270B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8935F8544400CF0BFC780E4D /* Build configuration list for PBXProject "Tabboz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB5C73847339C174C6D7E84 /* Debug */,
+				C788F1FF6E61B4D83FE3CB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2D47B3CFF7D880261C1F6037 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = exactVersion;
+				version = 13.12.0;
+			};
+		};
+		BC8F72E987957881108F2DAA /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.1.0;
+			};
+		};
+		C110D072B2684EFE3562F0B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 13.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1BED506544E63CC4E7EC8B50 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D47B3CFF7D880261C1F6037 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		3A2565E05763241607582ABF /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C110D072B2684EFE3562F0B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		5C99F9C182C64666A04538D1 /* GoogleUserMessagingPlatform */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC8F72E987957881108F2DAA /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */;
+			productName = GoogleUserMessagingPlatform;
+		};
+		956A08484A743F8BBFF796CE /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C110D072B2684EFE3562F0B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		F790D1849DC6C6CF374536BF /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C110D072B2684EFE3562F0B7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CAF00F4F3B46CBA4160545F0 /* Project object */;
+}

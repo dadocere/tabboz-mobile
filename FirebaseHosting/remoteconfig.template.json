@@ -1,0 +1,18 @@
+{
+  "parameters": {
+    "ads_enabled": {
+      "defaultValue": {
+        "value": "true"
+      },
+      "description": "Emergency kill switch for Tabboz ads",
+      "valueType": "BOOLEAN"
+    },
+    "ads_cooldown_seconds": {
+      "defaultValue": {
+        "value": "240"
+      },
+      "description": "Minimum foreground gameplay seconds between full-screen ads; device enforces minimum 240 and fixed caps",
+      "valueType": "NUMBER"
+    }
+  }
+}

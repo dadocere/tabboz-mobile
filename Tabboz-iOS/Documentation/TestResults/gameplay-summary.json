@@ -1,0 +1,310 @@
+{
+  "startedAt": "2026-11-09T08:56:53.274Z",
+  "tests": [
+    {
+      "name": "Fresh game: unaffordable purchase leaves money and clothing unchanged",
+      "result": "passed",
+      "milliseconds": 877
+    },
+    {
+      "name": "Fresh game: buying a packet costs 6,000 lire, adds cigarettes and advances a day",
+      "result": "passed",
+      "milliseconds": 766
+    },
+    {
+      "name": "School: selecting a subject and studying changes the correct grade and advances time",
+      "result": "passed",
+      "milliseconds": 786
+    },
+    {
+      "name": "All five clothing shops: real selections deduct money and equip jacket, trousers and shoes",
+      "result": "passed",
+      "milliseconds": 3036
+    },
+    {
+      "name": "All clothing shops: cancel does not charge or equip, including female jacket variants",
+      "result": "passed",
+      "milliseconds": 2692
+    },
+    {
+      "name": "Gym: missing subscription and insufficient funds are rejected; purchase and duplicate guards work",
+      "result": "passed",
+      "milliseconds": 2563
+    },
+    {
+      "name": "Tanning: a paid session changes the character head and deducts the quoted cost",
+      "result": "passed",
+      "milliseconds": 848
+    },
+    {
+      "name": "Disco: entry fee is charged and an actual day passes",
+      "result": "passed",
+      "milliseconds": 796
+    },
+    {
+      "name": "Disco: closing day, dress code and out-of-town transport restrictions reject entry",
+      "result": "passed",
+      "milliseconds": 2521
+    },
+    {
+      "name": "Scooter: purchase from dealer equips an actual model, charges its price and persists",
+      "result": "passed",
+      "milliseconds": 1447
+    },
+    {
+      "name": "Scooter: park/use toggles and refuelling change real vehicle state and money",
+      "result": "passed",
+      "milliseconds": 1326
+    },
+    {
+      "name": "Scooter: all four tuning categories install parts and charge their original prices",
+      "result": "passed",
+      "milliseconds": 1819
+    },
+    {
+      "name": "Scooter: damaged vehicle repair restores condition and cancelling a sale preserves ownership",
+      "result": "passed",
+      "milliseconds": 1313
+    },
+    {
+      "name": "Scooter: accepting a race consumes fuel and returns to a usable game",
+      "result": "passed",
+      "milliseconds": 938
+    },
+    {
+      "name": "Phone: purchase, SIM subscription, matching top-up and sale affect inventory and cash",
+      "result": "passed",
+      "milliseconds": 2086
+    },
+    {
+      "name": "Relationships: no-partner guards, searching, telephone, date and confirmed breakup",
+      "result": "passed",
+      "milliseconds": 2444
+    },
+    {
+      "name": "Female character: shops, relationship search and calling use the female game branch",
+      "result": "passed",
+      "milliseconds": 1361
+    },
+    {
+      "name": "Work: incomplete interview answers are rejected; all nine real quiz layouts accept valid checkbox groups",
+      "result": "passed",
+      "milliseconds": 23352
+    },
+    {
+      "name": "Work: employed player works, receives monthly salary and can resign",
+      "result": "passed",
+      "milliseconds": 1325
+    },
+    {
+      "name": "School: a paid bribe raises the selected grade, while refusing it keeps the grade and money",
+      "result": "passed",
+      "milliseconds": 1766
+    },
+    {
+      "name": "Family: Saturday allowance pays half/full/double according to actual school grades",
+      "result": "passed",
+      "milliseconds": 2828
+    },
+    {
+      "name": "Friends: a fresh character can raise reputation by going out; social guards return safely",
+      "result": "passed",
+      "milliseconds": 1066
+    },
+    {
+      "name": "Phone: wrong-provider top-up and trying to recharge without a SIM do not charge",
+      "result": "passed",
+      "milliseconds": 2297
+    },
+    {
+      "name": "Relationships: a phone call spends mobile credit before cash; parked scooter blocks a date",
+      "result": "passed",
+      "milliseconds": 1591
+    },
+    {
+      "name": "Relationships: a rejection records the original counter and keeps the game usable",
+      "result": "passed",
+      "milliseconds": 970
+    },
+    {
+      "name": "Companies: all eight information dialogs open and return to the real job screen",
+      "result": "passed",
+      "milliseconds": 2582
+    },
+    {
+      "name": "Configuration: currency toggle updates amounts and reset restores a playable female character",
+      "result": "passed",
+      "milliseconds": 1620
+    },
+    {
+      "name": "Calendar: month rollover, leap day, year rollover, report cards and gym expiry",
+      "result": "passed",
+      "milliseconds": 5845
+    },
+    {
+      "name": "Audio: all supplied clips decode, and missing optional Windows clips do not reject playback",
+      "result": "passed",
+      "milliseconds": 411
+    },
+    {
+      "name": "Extended play: 400 consecutive days with random events and calendar boundaries, then save/reload",
+      "result": "passed",
+      "milliseconds": 78825
+    },
+    {
+      "name": "Scooter: alternative brands can be bought and a confirmed sale removes ownership and pays cash",
+      "result": "passed",
+      "milliseconds": 2504
+    },
+    {
+      "name": "Relationships: existing male/female partners can be kept or replaced through the extra-choice dialogs",
+      "result": "passed",
+      "milliseconds": 2210
+    },
+    {
+      "name": "Window controls: minimize/restore, activity close, cancelled quit and desktop relaunch preserve the game",
+      "result": "passed",
+      "milliseconds": 1548
+    },
+    {
+      "name": "Mixed progression: 100 rounds with a job, scooter, phone and partner, real actions and random events",
+      "result": "passed",
+      "milliseconds": 74639
+    },
+    {
+      "name": "Shop hub: every nested shop opens and cancels back to the hub without charging",
+      "result": "passed",
+      "milliseconds": 3062
+    },
+    {
+      "name": "Help: original About, usage notice and startup-logo commands return to gameplay",
+      "result": "passed",
+      "milliseconds": 1250
+    },
+    {
+      "name": "Random-event branches: all six fight scenes and both scooter accident scenes remain playable",
+      "result": "passed",
+      "milliseconds": 7733
+    }
+  ],
+  "dialogs": [
+    1,
+    10,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    110,
+    12,
+    120,
+    121,
+    123,
+    13,
+    14,
+    15,
+    16,
+    190,
+    191,
+    192,
+    2,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    210,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    4,
+    5,
+    6,
+    7,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    8,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    88,
+    89,
+    9,
+    91,
+    92,
+    95,
+    "message"
+  ],
+  "errors": [],
+  "requestsFailed": [],
+  "jobQuizLayouts": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208
+  ],
+  "successfulInterviews": 15,
+  "audioClipsDecoded": 28,
+  "simulatedDays": 400,
+  "calendarCheckpoints": 8,
+  "mixedProgressionRounds": 100,
+  "runtimeHandles": {
+    "initial": 31,
+    "peak": 31,
+    "final": 31
+  },
+  "finishedAt": "2026-11-09T09:00:59.095Z",
+  "result": "passed",
+  "passedTests": 37,
+  "failedTests": 0,
+  "observedEventMessages": 797,
+  "dialogTypeCount": 78,
+  "engineArtifacts": {
+    "Tabboz/Web/zarrosim.js": "0d3aa500130642e39a35995f120edcb022074d16aa5e2c38963d31c3fe18086b",
+    "Tabboz/Web/zarrosim.wasm": "332e911fd9f40fd9f608a893d277b9aec5526cabf5d1d818c285278b27486f2d"
+  },
+  "compiler": "emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.51 (c0c2ca1314672a25699846b4663701bcb6f69cca)",
+  "nativeResult": "gameplay-iPhone-summary.json",
+  "supportingChecks": {
+    "engineSmoke": "passed",
+    "browserRegression": "passed",
+    "builtAppAssets": "passed"
+  }
+}

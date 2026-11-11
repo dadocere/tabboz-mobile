@@ -1,0 +1,116 @@
+name: Tabboz
+options:
+  bundleIdPrefix: it.tabboz
+  deploymentTarget:
+    iOS: '16.0'
+settings:
+  base:
+    SWIFT_VERSION: '5.0'
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: FC4758TVE2
+packages:
+  Firebase:
+    url: https://github.com/firebase/firebase-ios-sdk.git
+    exactVersion: 13.1.1
+  GoogleMobileAds:
+    url: https://github.com/googleads/swift-package-manager-google-mobile-ads.git
+    exactVersion: 13.12.0
+  GoogleUMP:
+    url: https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git
+    exactVersion: 3.1.0
+targets:
+  Tabboz:
+    type: application
+    platform: iOS
+    sources:
+      - path: Tabboz/App
+      - path: Tabboz/Engine
+      - path: Tabboz/Web
+        type: folder
+        buildPhase: resources
+      - path: Tabboz/Resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: it.tabboz.simulator
+        TARGETED_DEVICE_FAMILY: '1,2'
+        MARKETING_VERSION: '1.0.0'
+        CURRENT_PROJECT_VERSION: 4
+        DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
+        ENABLE_DEBUG_DYLIB: NO
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: Tabboz/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    dependencies:
+      - sdk: WebKit.framework
+      - sdk: Network.framework
+      - package: Firebase
+        product: FirebaseAnalyticsCore
+      - package: Firebase
+        product: FirebaseCrashlytics
+      - package: Firebase
+        product: FirebaseRemoteConfig
+      - package: GoogleMobileAds
+        product: GoogleMobileAds
+      - package: GoogleUMP
+        product: GoogleUserMessagingPlatform
+    postBuildScripts:
+      - name: Upload Crashlytics symbols
+        script: |
+          if [ "${PLATFORM_NAME}" != "iphoneos" ]; then
+            echo "Crashlytics symbol upload is only needed for device builds."
+            exit 0
+          fi
+          "${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run"
+        basedOnDependencyAnalysis: false
+        inputFiles:
+          - $(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)
+          - $(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)/Contents/Resources/DWARF/$(PRODUCT_NAME)
+          - $(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)/Contents/Info.plist
+          - $(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist
+          - $(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)
+  TabbozTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Tests]
+    dependencies:
+      - target: Tabboz
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: it.tabboz.simulator.tests
+        IPHONEOS_DEPLOYMENT_TARGET: '17.0'
+  TabbozUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [UITests]
+    dependencies:
+      - target: Tabboz
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: it.tabboz.simulator.uitests
+        IPHONEOS_DEPLOYMENT_TARGET: '17.0'
+  TabbozAdSDKTests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [AdSDKTests]
+    dependencies:
+      - target: Tabboz
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: it.tabboz.simulator.adsdkuitests
+        IPHONEOS_DEPLOYMENT_TARGET: '17.0'
+schemes:
+  Tabboz:
+    build:
+      targets:
+        Tabboz: all
+    test:
+      targets: [TabbozTests, TabbozUITests]
+  TabbozAdsSmoke:
+    build:
+      targets:
+        Tabboz: all
+    test:
+      targets: [TabbozAdSDKTests]

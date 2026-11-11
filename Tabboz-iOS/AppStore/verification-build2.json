@@ -1,0 +1,41 @@
+{
+  "verifiedAt": "2026-11-10T08:35:26.103283+00:00",
+  "appId": "6832685698",
+  "teamId": "FC4758TVE2",
+  "version": "1.0.0",
+  "buildNumber": "2",
+  "buildState": "VALID",
+  "appStoreState": "PREPARE_FOR_SUBMISSION",
+  "releaseType": "MANUAL",
+  "ageRatingOverride": "EIGHTEEN_PLUS",
+  "priceEUR": "4.99",
+  "screenshotsUploaded": 8,
+  "screenshotsComplete": 7,
+  "reviewSubmitted": false,
+  "published": false,
+  "buildId": "1febfe08-055d-47b7-8bbb-f824cab5c737",
+  "attachedBuildVerified": true,
+  "privacyLabelsPublished": true,
+  "privacyPolicyUrl": "https://tabboz-mobile-2026.web.app/privacy",
+  "supportUrl": "https://tabboz-mobile-2026.web.app/support",
+  "nativeTests": {
+    "passed": 10,
+    "failed": 0,
+    "skipped": 0
+  },
+  "crashlyticsSymbolsUploaded": true,
+  "cloudAnalyticsEventReceiptVerified": false,
+  "cloudCrashReceiptVerified": false,
+  "appReviewContactSaved": true,
+  "build2ReviewNotesSaved": true,
+  "businessStatus": {
+    "organization": "ISTITUTI EDMONDO DE AMICIS SRL",
+    "paidAppsAgreement": "NOT_SIGNED_UI_NOTICE",
+    "freeAppsAgreement": "ACTIVE",
+    "banking": "ACTIVE",
+    "taxForms": "ACTIVE",
+    "digitalServicesAct": "ACTIVE",
+    "dac7": "ACTIVE",
+    "verifiedAt": "2026-11-10T08:58:42.565753+00:00"
+  }
+}

@@ -1,0 +1,25 @@
+Torna nell'atmosfera dei simulatori per PC degli anni '90 con Tabboz: una vita fatta di compagnia, vestiti improbabili, scooter elaborati e scelte dalle conseguenze imprevedibili.
+
+Parti con pochi soldi e costruisci il tuo personaggio. Studia, cerca un lavoro, gestisci la paghetta, rinnova il guardaroba e prova a farti un nome nel giro della compagnia. Trova una relazione, organizza le uscite e tieni d'occhio il portafoglio: ogni giornata può riservare una sorpresa.
+
+IL GIOCO CLASSICO SUL TUO IPHONE E IPAD
+• Interfaccia originale in stile Windows anni '90, adattata al touch.
+• Testi e dialoghi in italiano.
+• Scuola, famiglia, lavoro, negozi, discoteche e relazioni.
+• Scooter da acquistare, riparare ed elaborare.
+• Eventi casuali che cambiano l'andamento della partita.
+• Salvataggio locale dei progressi e importazione/esportazione dei backup tramite File.
+• Download gratuito, senza account, acquisti in-app o abbonamenti.
+• Annunci nelle pause tra attività; il gioco resta disponibile offline.
+• Video premio facoltativi per ottenere 10 minuti di gioco senza interruzioni pubblicitarie.
+• Supporto per orientamento verticale e orizzontale.
+
+Tabboz è una simulazione satirica: situazioni, personaggi e comportamenti sono volutamente caricaturali. Il gioco contiene linguaggio adulto e riferimenti al fumo.
+
+Basato su Tabboz Simulator di Andrea Bonomi / Obscured Truckware. Questa è una conversione per dispositivi mobili; i crediti e gli avvisi delle licenze originali sono conservati nell'app.
+
+PRIVACY E DIAGNOSTICA
+Dalla build 2, le statistiche di utilizzo e le segnalazioni di arresto anomalo di Firebase sono attive inizialmente. Puoi disattivarle separatamente dal menu Help → Privacy e diagnostica. Il gioco rimane utilizzabile offline.
+
+PUBBLICITÀ
+Dalla build 3, AdMob finanzia il gioco con annunci senza personalizzazione. Le preferenze pubblicitarie sono accessibili dal menu Help. In assenza di annunci disponibili, la partita continua.
