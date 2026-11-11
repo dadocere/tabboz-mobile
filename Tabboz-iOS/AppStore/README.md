@@ -7,7 +7,7 @@
 - Version **1.0.0**, corrected build **4**, **VALID** and attached to the draft version.
 - Build/delivery ID: `e6c4facd-ff1f-4b96-bcfc-4cfe327ea085`.
 - **Free download**, Italy only; ads without purchases or subscriptions. The previous €4.99 draft price has been replaced by zero and read back from Apple.
-- **PREPARE_FOR_SUBMISSION**, manual release. No App Review submission or public app publication.
+- **WAITING_FOR_REVIEW**, submitted 11 November 2026 at 09:45 UTC. Manual release remains enabled; the app is not publicly released.
 - Simulation / Role Playing, age override **18+**. Four iPhone and four iPad screenshots uploaded. Mac and Vision Pro availability remain disabled.
 
 ## Monetization and privacy
@@ -39,3 +39,7 @@ See [AdMob implementation](../Documentation/ADMOB.md), [Firebase history](../Doc
 Complete the applicable AdMob readiness/store-link verification. AdMob currently requires review; hosting app-ads.txt alone does not establish approval. The modified source is published at [dadocere/tabboz-mobile](https://github.com/dadocere/tabboz-mobile) (tag `ios-v1.0.0-build4`); complete the remaining licensing/branding and distribution assessment. Apple accepting the app name is not trademark clearance; no original-author outreach has occurred.
 
 Banking, tax forms, DSA and DAC7 were verified active in the Istituti De Amicis business account. Membership fee remains waived. An ads-only free app has no Paid Apps Agreement or in-app-purchase requirement; the membership has not been changed.
+
+## Review submission
+
+Submission `58c8821b-43f9-4563-98e2-c17eb021f277` contains iOS 1.0.0 build 4 and was independently read back as `WAITING_FOR_REVIEW`. The user confirmed Apple’s third-party Content Rights declaration and requested submission without further rights assessment. That decision does not establish completion of the separate assessment documented in `DISTRIBUTION.md`. Reviewer notes now link the public source and build tag.

@@ -7,10 +7,10 @@
   "buildId": "e6c4facd-ff1f-4b96-bcfc-4cfe327ea085",
   "buildState": "VALID",
   "attachedBuildVerified": true,
-  "appStoreState": "PREPARE_FOR_SUBMISSION",
+  "appStoreState": "WAITING_FOR_REVIEW",
   "releaseType": "MANUAL",
   "priceEUR": "0.00",
-  "reviewSubmitted": false,
+  "reviewSubmitted": true,
   "published": false,
   "nativeVerification": {
     "iPhoneBuild4": {
@@ -112,5 +112,9 @@
   "adMobProductionApproved": false,
   "adMobFirebaseProductLinkVerified": true,
   "adMobConsentMessageVerifiedAt": "2026-11-11T08:42:02.081358+00:00",
-  "adMobFirebaseProductLinkVerifiedAt": "2026-11-11T08:44:41.893511+00:00"
+  "adMobFirebaseProductLinkVerifiedAt": "2026-11-11T08:44:41.893511+00:00",
+  "reviewSubmissionId": "58c8821b-43f9-4563-98e2-c17eb021f277",
+  "submittedDate": "2026-11-11T09:45:04.698Z",
+  "manualReleaseVerified": true,
+  "submittedBuildId": "e6c4facd-ff1f-4b96-bcfc-4cfe327ea085"
 }
