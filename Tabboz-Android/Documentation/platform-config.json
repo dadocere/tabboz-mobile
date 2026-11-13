@@ -17,5 +17,17 @@
   "googlePlayListingCreated": false,
   "publiclyReleased": false,
   "privacyUrl": "https://tabboz-mobile-2026.web.app/privacy",
-  "supportUrl": "https://tabboz-mobile-2026.web.app/support"
+  "supportUrl": "https://tabboz-mobile-2026.web.app/support",
+  "consentPrivacyUrlConfigured": true,
+  "consentPrivacyUrlVerifiedAt": "2026-11-13T10:28:04.921656+00:00",
+  "consentMessagePublicationStatus": "AdMob editor returned save/publication error; fresh editor failed to load",
+  "consentMessageDesiredConfiguration": {
+    "name": "Tabboz Android - consenso europeo",
+    "primaryLanguage": "it",
+    "additionalLanguages": [
+      "en"
+    ],
+    "denyOptionAllRegions": true,
+    "targetPlatform": "Android"
+  }
 }

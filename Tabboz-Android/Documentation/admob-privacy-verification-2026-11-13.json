@@ -1,0 +1,18 @@
+{
+  "verifiedAt": "2026-11-13T10:29:48.286912+00:00",
+  "account": "dadocere@gmail.com",
+  "androidAppId": "ca-app-pub-4476338747199979~7432992137",
+  "androidPrivacyUrlObserved": "https://tabboz-mobile-2026.web.app/privacy",
+  "androidRowSelected": true,
+  "iOSRowSelected": false,
+  "androidConsentPublicationVerified": false,
+  "errorsObserved": [
+    "Si \u00e8 verificato un problema. Riprova pi\u00f9 tardi.",
+    "Impossibile apportare queste modifiche",
+    "Impossibile caricare la pagina"
+  ],
+  "existingIOSMessageId": "608c5730ea2b7249",
+  "existingIOSMessagePublishedAndEnabled": true,
+  "appSourceChanged": false,
+  "newAPKRequiredForConsoleMessagePublication": false
+}
