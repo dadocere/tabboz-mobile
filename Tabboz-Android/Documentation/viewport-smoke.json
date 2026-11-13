@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-13",
+  "phoneNetworkDisabled": true,
+  "results": [
+    {
+      "port": 19337,
+      "origin": "https://appassets.androidplatform.net/assets/index.html",
+      "status": "PASS",
+      "schoolScore": "1/100",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      }
+    },
+    {
+      "port": 19338,
+      "origin": "https://appassets.androidplatform.net/assets/index.html",
+      "status": "PASS",
+      "schoolScore": "1/100",
+      "viewport": {
+        "width": 1280,
+        "height": 744
+      }
+    }
+  ]
+}

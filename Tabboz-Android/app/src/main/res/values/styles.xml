@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.Tabboz" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#008080</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#006060</item>
+        <item name="android:navigationBarColor">#006060</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">#008080</item>
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-13",
+  "sdkTestUnitsOnly": true,
+  "realFiveMinuteGrace": true,
+  "results": [
+    {
+      "suite": "it.tabboz.simulator.AdsSdkSmokeTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "seconds": "324.6",
+      "cases": [
+        "realGraceInterstitialAndRewardedReturnToGame"
+      ]
+    }
+  ]
+}

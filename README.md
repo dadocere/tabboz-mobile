@@ -2,13 +2,13 @@
 
 Source repository: [dadocere/tabboz-mobile](https://github.com/dadocere/tabboz-mobile). The `ios-v1.0.0-build4` tag identifies the source snapshot for the uploaded iOS build 4.
 
-The iOS game lives in [Tabboz-iOS](Tabboz-iOS/README.md).
+The iOS game lives in [Tabboz-iOS](Tabboz-iOS/README.md). The Android app lives in [Tabboz-Android](Tabboz-Android/README.md), with its own Gradle project, native file/privacy/ad integration and the same shared game assets.
 
 Development and commercial distribution are separate milestones. Current license and platform status is recorded in [distribution notes](DISTRIBUTION.md).
 
 Open `Tabboz-iOS/Tabboz.xcodeproj` in Xcode, choose the **Tabboz** scheme and an iPhone or iPad simulator, and press Run. Signing is pinned to Istituti De Amicis team FC4758TVE2.
 
-This is an offline iOS host for the original game's C/WebAssembly engine, dialogs and artwork from [andreax79/tabboz](https://github.com/andreax79/tabboz). The upstream source and license are retained inside the iOS directory. Android is reserved for a later port; the bundled game can be reused there.
+This is an offline iOS host for the original game's C/WebAssembly engine, dialogs and artwork from [andreax79/tabboz](https://github.com/andreax79/tabboz). The upstream source and license are retained inside the iOS directory. Android bundles the same game files at build time and serves them through AndroidX WebViewAssetLoader. Both ports keep local progress and share the portable JSON backup format.
 
 ## Firebase and store draft
 

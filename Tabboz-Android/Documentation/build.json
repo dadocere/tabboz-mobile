@@ -1,0 +1,48 @@
+{
+  "builtDate": "2026-11-13",
+  "artifacts": [
+    {
+      "path": "app/build/outputs/apk/debug/app-debug.apk",
+      "sha256": "58590dafb5a2e240478f2f60b4137f4ff9287a34fddf960dc929a1326580af5a",
+      "bytes": 14981117
+    },
+    {
+      "path": "app/build/outputs/apk/release/app-release-unsigned.apk",
+      "sha256": "ec02a5c398551f045eae12c9bd35f7294acef0cf91c8234256bf55ec6562bdfa",
+      "bytes": 7742728
+    },
+    {
+      "path": "app/build/outputs/bundle/release/app-release.aab",
+      "sha256": "40d04dacabbfa4d868a6f4327065c919a89f368db92d117145f014df71c74a62",
+      "bytes": 10328527
+    }
+  ],
+  "releaseBundleSigned": false,
+  "googlePlaySubmitted": false,
+  "lintErrors": 0,
+  "unitTestsPassed": 11,
+  "phoneIntegrationTestsPassed": 5,
+  "tabletIntegrationTestsPassed": 5,
+  "realFiveMinuteAdFlowPassed": true,
+  "restrictedPermissionsRewardedTestsPassed": 2,
+  "firebaseCrashlyticsReleaseMappingUpload": "Gradle task succeeded",
+  "productionFirebaseEventReceiptVerified": false,
+  "physicalDeviceTestingPerformed": false,
+  "freshPhoneOfflineGameplayPassed": true,
+  "hostingDeploymentVersion": "971c432c1f5508f5",
+  "sourceFilesSha256": {
+    "app/src/main/AndroidManifest.xml": "56448a04aeb383ebb73426cfb4ca714ac4bc31de6971523664a696ae26956948",
+    "app/src/main/game/android-bridge.js": "51d91379f673e2bbb11b3c583ebe62bb110837ea7f5480c56fa58ffcfa859d60",
+    "app/src/main/notices/ThirdPartyNotices.txt": "b1d2b0afbc807dcd1250c64dd62b4bd161947cdcf7dce857fe43a7daaa70ce0f",
+    "app/src/main/java/it/tabboz/simulator/MainActivity.kt": "e998d664829d62168b55fc020dd04764ca3b2170ac570396cb34e4cde1641dc4",
+    "app/src/main/java/it/tabboz/simulator/AdPreferences.kt": "481b8031b62b3aa3eb22f8e273b09b0a6e09d020bf868e0ad946b84ab8388ac9",
+    "app/src/main/java/it/tabboz/simulator/AdCoordinator.kt": "0fb369339dd1800787c811ddcdc41df2624d16b9823644857f4f1b51b1f510fe",
+    "app/src/main/java/it/tabboz/simulator/AdPolicy.kt": "8e77fbacf8acb80b6cdf22d606176b356a8af4dc225119817723165ca9811437",
+    "app/src/main/java/it/tabboz/simulator/TabbozApplication.kt": "28c675d4dca9b545bf569112e12944ce7ef95f6aa20b91e7f5b3e47a6e43ef3a",
+    "app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png": "b80689b8af8fb1105376efd9661a290f9fa0fa34783d1db52205eb0d4fe370b4",
+    "app/src/main/res/values/colors.xml": "d24fba34b45fa81a118ba56814749ca4dce19981b52c561f75eba9f2b05ff44e",
+    "app/src/main/res/values/styles.xml": "7f212abd540b698f0778d160310d0198a81f8e58fa9abbcc5c373f447cefa3a3",
+    "app/src/main/res/xml/data_extraction_rules.xml": "cb029b35db0e976c087100424e16e14a6256b46962398887520e51508c3b5842",
+    "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml": "f62271912b28d969bae6a5ad9387fd97682af54fc7be5c311541d0fef60ed321"
+  }
+}

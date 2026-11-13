@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-13",
+  "results": [
+    {
+      "suite": "it.tabboz.simulator.GameplayTest",
+      "deviceReport": "TEST-Tabboz_Android_Tablet_API_35(AVD) - 15-_app-.xml",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "seconds": "46.123",
+      "cases": [
+        "privacyPreferencesAndRewardNoFillAreNonBlocking",
+        "nativeTouchCoordinatesReachOriginalSchoolControls",
+        "originalEngineTransactionsAndPersistentSave",
+        "orientationBoundsAndOriginRestrictedBridge",
+        "backupsRejectTruncationAndRoundTripAcrossReload"
+      ]
+    },
+    {
+      "suite": "it.tabboz.simulator.GameplayTest",
+      "deviceReport": "TEST-Tabboz_Android_API_35(AVD) - 15-_app-.xml",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "seconds": "47.123",
+      "cases": [
+        "privacyPreferencesAndRewardNoFillAreNonBlocking",
+        "nativeTouchCoordinatesReachOriginalSchoolControls",
+        "originalEngineTransactionsAndPersistentSave",
+        "orientationBoundsAndOriginRestrictedBridge",
+        "backupsRejectTruncationAndRoundTripAcrossReload"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "packageName": "it.tabboz.simulator",
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "minSdk": 26,
+  "targetSdk": 36,
+  "firebaseProjectId": "tabboz-mobile-2026",
+  "firebaseAccount": "dadocere@gmail.com",
+  "firebaseAppId": "1:371128262274:android:5f8c57b8d00b58e6269e9b",
+  "admobAppId": "ca-app-pub-4476338747199979~7432992137",
+  "interstitialId": "ca-app-pub-4476338747199979/1006204640",
+  "rewardedId": "ca-app-pub-4476338747199979/7241420440",
+  "highEngagementAdsEnabled": false,
+  "consentMessagePublished": false,
+  "firebaseProductLinkVerified": false,
+  "productionAdServingApproved": false,
+  "googlePlayListingCreated": false,
+  "publiclyReleased": false,
+  "privacyUrl": "https://tabboz-mobile-2026.web.app/privacy",
+  "supportUrl": "https://tabboz-mobile-2026.web.app/support"
+}
