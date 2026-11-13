@@ -11,7 +11,7 @@
   "interstitialId": "ca-app-pub-4476338747199979/1006204640",
   "rewardedId": "ca-app-pub-4476338747199979/7241420440",
   "highEngagementAdsEnabled": false,
-  "consentMessagePublished": false,
+  "consentMessagePublished": true,
   "firebaseProductLinkVerified": false,
   "productionAdServingApproved": false,
   "googlePlayListingCreated": false,
@@ -20,14 +20,11 @@
   "supportUrl": "https://tabboz-mobile-2026.web.app/support",
   "consentPrivacyUrlConfigured": true,
   "consentPrivacyUrlVerifiedAt": "2026-11-13T10:28:04.921656+00:00",
-  "consentMessagePublicationStatus": "AdMob editor returned save/publication error; fresh editor failed to load",
-  "consentMessageDesiredConfiguration": {
-    "name": "Tabboz Android - consenso europeo",
-    "primaryLanguage": "it",
-    "additionalLanguages": [
-      "en"
-    ],
-    "denyOptionAllRegions": true,
-    "targetPlatform": "Android"
-  }
+  "consentMessagePublicationStatus": "Published and enabled; both platform assignments verified after refreshing AdMob",
+  "consentMessageId": "608c5730ea2b7249",
+  "consentMessageName": "Tabboz iOS - consenso europeo",
+  "consentMessagePlatforms": [
+    "ios",
+    "android"
+  ]
 }
